@@ -1,8 +1,9 @@
-1,open git bash
-2,mkdir ~/.ssh(当前用户目录下创建一个.ssh文件夹）
-3,cd ~/.ssh/
-4,git config --global user.name "xujialong"   
-  git config --global user.email "xujialong@outlook.com"  
-5,ssh-keygen -t rsa -C "xujialong@outlook.com"
-6,push enter 3 times,get file:id_rsa and id_rsa.pub
-7,open id_rsa.pub,copy content to github
+open git bash
+--mkdir ~/.ssh(当前用户目录下创建一个.ssh文件夹）
+--cd ~/.ssh/
+git config --global user.name "xujialong"   
+git config --global user.email "xujialong@outlook.com"  
+ssh-keygen -t rsa -C "xujialong@outlook.com"
+push enter 3 times,get file:id_rsa and id_rsa.pub
+open id_rsa.pub,copy content to github
+test:ssh ssh git@github.com

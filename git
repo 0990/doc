@@ -2,3 +2,6 @@
   git rm -r --cached .
   git add .
   git commit -m ''
+2,从https切换到git
+  vim .git/config 
+  change url tag(enter i to input）

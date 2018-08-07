@@ -1,0 +1,4 @@
+定时任务全局开关有没有开启
+show variables like 'event_scheduler';
+开启
+set global event_scheduler = on;

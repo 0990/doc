@@ -1,0 +1,5 @@
+redis.conf
+
+protect-mode:false
+
+comment bindAddress

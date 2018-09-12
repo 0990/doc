@@ -2,3 +2,4 @@ https://studygolang.com/articles/11821 定时器的实现
 https://www.cnblogs.com/zingp 配置文件热更新
 https://blog.csdn.net/qq948993066/article/details/72910373 govendor使用
 https://studygolang.com/articles/12172 动态json
+govendor add +e 版本库自动加进govendor

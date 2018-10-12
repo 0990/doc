@@ -2,6 +2,18 @@
   git rm -r --cached .
   git add .
   git commit -m ''
+  
 2,从https切换到git
   vim .git/config 
   change url tag(enter i to input）
+  
+3,create sshkey
+open git bash
+--mkdir ~/.ssh(当前用户目录下创建一个.ssh文件夹）
+--cd ~/.ssh/
+git config --global user.name "xujialong"   
+git config --global user.email "xujialong@outlook.com"  
+ssh-keygen -t rsa -C "xujialong@outlook.com"
+push enter 3 times,get file:id_rsa and id_rsa.pub
+open id_rsa.pub,copy content to github
+test:ssh ssh git@github.com

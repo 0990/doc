@@ -1,0 +1,13 @@
+open google cloud ssh:
+
+ 1,change account to root
+ sudo su 
+ 2,edit ssh config
+ vim  /etc/ssh/sshd_config //编辑文件
+ PermitRootLogin和PasswordAuthentication yes
+ 3,reload ssh config
+ /etc/init.d/ssh restart
+ 4,set root password
+ passwd root
+ 
+ done!

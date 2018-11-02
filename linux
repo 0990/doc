@@ -8,3 +8,7 @@
 重启服务
 
 #sudo service ssh restart
+
+
+debian9开机启动：
+https://www.huozaiweilai.com/build-blog-by-20170914-2334.html

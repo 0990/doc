@@ -1,0 +1,12 @@
+[Unit]
+Description=V2Ray Service
+After=network.target
+Wants=network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/v2ray/v2ray
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

@@ -12,3 +12,10 @@
 
 debian9开机启动：
 https://www.huozaiweilai.com/build-blog-by-20170914-2334.html
+
+
+CentOS更换源：
+1，备份:cd /etc/yum.repos.d mv CentOS-Base.repo CentOS-Base.repo.old
+2，下载新源文件：wget http://mirrors.aliyun.com/repo/Centos-7.repo
+3，替换：mv Centos-7.repo CentOS-Base.repo
+4，更新：yum update

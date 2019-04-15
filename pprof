@@ -1,0 +1,11 @@
+main.go add
+       go func() {
+		fmt.Println(http.ListenAndServe("localhost:8888", nil))
+	}()
+
+then visit
+     http://localhost:8888/debug/pprof/
+
+you can also view graph
+    (cmd)go tool pprof http://localhost:8888/debug/pprof/heap
+    (pprof)web

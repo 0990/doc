@@ -1,0 +1,5 @@
+创建后台服务
+sc create nats-server binpath= "\"C:\tools\nats-streaming-server.exe\"
+
+cmd启动程序(/d代表目录）
+start /d "C:\Redis" redis-server.exe

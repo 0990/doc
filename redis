@@ -3,3 +3,10 @@ redis.conf
 protect-mode:false
 
 comment bindAddress
+
+
+Redis Windows后台运行
+1,首先你要安装服务：
+  redis-server --service-install redis.windows.conf --loglevel verbose
+2,然后就可以启动了：
+  redis-server --service-start

@@ -19,3 +19,7 @@ CentOS更换源：
 2，下载新源文件：wget http://mirrors.aliyun.com/repo/Centos-7.repo
 3，替换：mv Centos-7.repo CentOS-Base.repo
 4，更新：yum update
+
+
+zip命令
+zip -r mydata.zip mydata #压缩mydata目录

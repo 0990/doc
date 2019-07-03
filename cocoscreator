@@ -1,0 +1,2 @@
+使用protobuf:
+https://www.cnblogs.com/chevin/p/9515097.html (proto文件可放在任意地方，只要cmd里的路径对就行）

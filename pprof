@@ -1,4 +1,6 @@
-main.go add
+main.go 
+       import add _ "net/http/pprof"
+       main add 
        go func() {
 		fmt.Println(http.ListenAndServe("localhost:8888", nil))
 	}()

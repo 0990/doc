@@ -6,6 +6,7 @@
 2,从https切换到git
   vim .git/config 
   change url tag(enter i to input）
+  http://x.x.x.x/0990/goserver.git to git@x.x.x.x:0990/goserver.git
   
 3,create sshkey
 open git bash

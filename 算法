@@ -1,0 +1,21 @@
+1，公平随机算法
+Knuth 洗牌算法
+for(int i = n - 1; i >= 0 ; i -- )
+  swap(arr[i], arr[rand() % (i + 1)])
+  
+2，随机取N个
+void RandKNum(int n){
+      int *myarray=new int[n];
+      for(int i=0;i<n;i++)
+          cin>>myarray[i];
+  
+      int tmp=0;
+      int num=n;
+      while(cin>>tmp){
+         if(rand()%(num+1)+1<n)    
+             myarray[rand()%n]=tmp;
+     }
+ 
+     for(int i=0;i<n;i++)
+         cout<<myarray[i]<<endl;
+     }

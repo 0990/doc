@@ -24,3 +24,6 @@ zip -r mydata.zip mydata #压缩mydata目录
 
 linux 设置初始root密码
 sudo passwd
+
+ssh传文件(rz/sz)
+yum install lrzsz 或apt install lrzsz

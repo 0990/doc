@@ -29,3 +29,7 @@ sudo passwd
 
 ssh传文件(rz/sz)
 yum install lrzsz 或apt install lrzsz
+
+
+curl命令
+http://www.ruanyifeng.com/blog/2019/09/curl-reference.html

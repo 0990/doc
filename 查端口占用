@@ -1,0 +1,14 @@
+1、Windows平台
+在windows命令行窗口下执行：
+C:\>netstat -aon|findstr "80"
+TCP    127.0.0.1:80        0.0.0.0:0              LISTENING      2448
+看到了吗，端口被进程号为2448的进程占用，继续执行下面命令：
+C:\>tasklist|findstr "2448"
+thread.exe                    2016 Console                0    16,064 K
+很清楚吧，thread占用了你的端口,Kill it
+如果第二步查不到，那就开任务管理器，看哪个进程是2448，然后杀之即可。 如果需要查看其他端口。把 80 改掉即可
+
+ 
+
+ 
+linux下使用 lsof +p 端口号 可以查看端口的进程

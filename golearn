@@ -7,3 +7,5 @@ govendor add +e 版本库自动加进govendor
 windows上编译linux set GOOS=linux 
 
 gomodule使用https://mp.weixin.qq.com/s/TvTlz3uKIBqgg1FjlAItPQ
+
+limit worker https://studygolang.com/topics/10358

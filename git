@@ -1,5 +1,5 @@
 1,已纳入版本控制的文件再ignore不会生效，办法：
-  git rm -r --cached .
+  git rm --cached file_path (删除全部用 git rm -r --cached .）
   git add .
   git commit -m ''
   

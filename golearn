@@ -9,3 +9,6 @@ windows上编译linux set GOOS=linux
 gomodule使用https://mp.weixin.qq.com/s/TvTlz3uKIBqgg1FjlAItPQ
 
 limit worker https://studygolang.com/topics/10358
+
+
+打印堆栈 https://colobu.com/2016/12/21/how-to-dump-goroutine-stack-traces/
